@@ -1,0 +1,21 @@
+body {
+    background-color: #F5F5F5 !important;
+}
+
+#navbar_2 .navbar {
+    padding: 0.5rem 1rem 0rem 1rem;
+}
+
+#Course_Title {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.form-check-label {
+    font-size: smaller;
+}
+
+label {
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    color: #707070;
+}

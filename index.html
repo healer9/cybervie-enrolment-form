@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybervie Training Enrolment Form | Cybervie</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="navbar_2" style="margin-bottom: 25px;">
+        <nav class="navbar navbar-light navbar-expand-md justify-content-center bg-white">
+            <a href="/" class="navbar-brand d-flex mr-auto">
+                <img src="logo.gif" alt="Cybervie Logo" style="max-height: 50px; max-width: 175px;" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container" style="max-width: 1000px;">
+        <div class="row ">
+            <div class="col-8">
+                <h2 id="Course_Title">Cybervie Training Enrolment Form</h2>
+            </div>
+            <div class="col-4 text-right">
+            </div>
+        </div>
+    </div>
+
+    <form class="form-horizontal" name="enrolment_form" action="" method="post">
+        <div class="container" style="max-width: 1000px;">
+            <div class="card no-border" style="border: 0;border-radius: 15px;">
+                <div class="card-body" style="padding: 2%;">
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label" for="first_name">First Name</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="first_name" type="text" name="first_name" placeholder=""
+                                required="required">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label" for="last_name">Last Name</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="last_name" type="text" name="last_name" placeholder=""
+                                required="required">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label" for="phone_number">Phone Number</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="phone_number" type="tel" name="phone_number" placeholder=""
+                                required="required">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label" for="email_id">Email</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="email_id" type="email" name="email_id" placeholder=""
+                                autocomplete="email" required="required">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label" for="education">Educational Background</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="education" type="text" name="education" placeholder=""
+                                required="required">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">Work Experience</label>
+                        <div class="col-md-9 col-form-label">
+                            <div class="form-check">
+                                <input class="form-check-input" id="work_experience_1" type="radio" value="Fresher"
+                                    name="work_experience" required="required">
+                                <label class="form-check-label" for="work_experience_1">Fresher</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" id="work_experience_2" type="radio" value="Experienced"
+                                    name="work_experience" required="required">
+                                <label class="form-check-label" for="work_experience_2">Experienced</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label" for="experience_details">Work Experience Details</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="experience_details" type="text" name="experience_details"
+                                placeholder="">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label" for="course_expectations">Expectation after completion of
+                            course</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="course_expectations" type="text" name="course_expectations"
+                                placeholder="" required="required">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label" for="why_cybervie">Why Cybervie?</label>
+                        <div class="col-md-9">
+                            <input class="form-control" id="why_cybervie" type="text" name="why_cybervie" placeholder=""
+                                required="required">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">How did you know about Cybervie?</label>
+                        <div class="col-md-9 col-form-label">
+                            <div class="form-check">
+                                <input class="form-check-input" id="awareness_channel_1" type="radio" value="Referral"
+                                    name="awareness_channel">
+                                <label class="form-check-label" for="awareness_channel_1">Referral</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" id="awareness_channel_2" type="radio" value="Web"
+                                    name="awareness_channel">
+                                <label class="form-check-label" for="awareness_channel_2">Web</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" id="awareness_channel_3" type="radio" value="Others"
+                                    name="awareness_channel">
+                                <label class="form-check-label" for="awareness_channel_3">Others</label>
+                                <input class="form-control" id="awareness_channel_name" type="text"
+                                    name="awareness_channel_name" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                    <input type="hidden" name="csrf_token" id="csrf_token" class="form-control"
+                        value="660eb556bc4ae6274b28844064ba5110">
+                    <div class="form-group">
+
+                        <button class="btn btn-primary " type="submit"> Submit</button>
+                        <button class="btn btn-default" type="reset"> Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
